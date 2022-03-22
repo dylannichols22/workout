@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAF9F6;
+    padding: 25px;
+    min-height: 100vh
+}
+
+@media only screen and (min-width: 1280px) {
+    .container {
+        padding: 25px 500px;
+    }
+}
